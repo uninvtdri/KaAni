@@ -2,13 +2,13 @@
 
 Midterm prototype.
 
-## Group Members
+## Group (Solo)
 
 - Rion Poblete
 
 ## Description
 
-KaAni helps agricultural personnel in Cagayan Province monitor weather-based crop risk per municipality and release farm advisories. Weather data is pulled automatically, the system assigns a Low, Moderate, or High risk level per town, and drafts an advisory that an officer can edit and submit. A provincial admin reviews each advisory before it is approved.
+KaAni helps agricultural personnel in Cagayan Province monitor weather based crop risk per municipality and release farm advisories. Weather data is pulled automatically, the system assigns a Low, Moderate, or High risk level per town, and drafts an advisory that an officer can edit and submit. A provincial admin reviews each advisory before it is approved.
 
 ## User Roles
 
@@ -93,5 +93,5 @@ php artisan test
 
 ## Notes
 
-- Weather data comes from Open-Meteo, a free model-based weather API, as a substitute until PAGASA data access is granted.
-- The AI draft is rule-based in this prototype (thresholds on rainfall, temperature, and humidity).
+- Weather data comes from Open-Meteo, a free model based weather API.
+- The AI draft is rule based in this prototype (thresholds on rainfall, temperature, and humidity).
